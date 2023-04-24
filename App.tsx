@@ -10,6 +10,7 @@ import {Provider} from "react-redux";
 import {store} from "./redux-toolkit/store/store";
 import SOSCaseScreen from "./screen/SOSCaseScreen";
 import PatientOverviewScreen from "./screen/PatientOverviewScreen";
+import ContactHospitalScreen from "./screen/ContactHospitalScreen";
 
 const Stack = createNativeStackNavigator();
 
@@ -67,6 +68,11 @@ const App = () => {
           <Stack.Screen
             name={"PatientOverviewScreen"}
             component={PatientOverviewScreen}
+            options={{headerShown: false}}
+          />
+          <Stack.Screen
+            name={"ContactHospitalScreen"}
+            component={ContactHospitalScreen}
             options={{headerShown: false}}
           />
         </Stack.Navigator>

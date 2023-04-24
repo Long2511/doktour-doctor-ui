@@ -39,14 +39,16 @@ const SOSCaseScreen = () => {
       <View style={styles.bottomContainer}>
         <View style={styles.buttonContainer}>
           <TouchableOpacity
+            style={styles.button}
             onPress={() => {
-              navigation.navigate("OverviewAboutDoctor");
+              navigation.navigate("PatientOverviewScreen");
             }}>
             <Text style={styles.buttonText}>Take this case</Text>
           </TouchableOpacity>
         </View>
         <View style={[styles.buttonContainer, styles.buttonContainerRed]}>
           <TouchableOpacity
+            style={styles.button}
             onPress={() => {
               navigation.navigate("homeScreen");
             }}>
@@ -86,7 +88,8 @@ const styles = StyleSheet.create({
   buttonText: {
     color: "white",
     fontSize: 20,
-    marginTop: 5,
+    marginTop: 10,
+    alignSelf: "center",
   },
   doctorTitle: {
     fontSize: 20,
@@ -122,6 +125,7 @@ const styles = StyleSheet.create({
   paddingText: {
     paddingTop: Border.xlg,
   },
+  button: {flexGrow: 1, width: '100%'},
 });
 
 export default SOSCaseScreen;
