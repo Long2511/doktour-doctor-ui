@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "447970357597",
+    "project_id": "doktour-b62e9",
+    "storage_bucket": "doktour-b62e9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:447970357597:android:c2d6ef4a42048a655738b4",
+        "android_client_info": {
+          "package_name": "com.doktour"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "447970357597-7guihfludrjde5hfg07q5j0vjfkngaki.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJpkULQtsA6YBYROnZ9G3grhEcqHh9Yms"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "447970357597-7guihfludrjde5hfg07q5j0vjfkngaki.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
